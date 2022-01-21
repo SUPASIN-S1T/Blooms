@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Prompt', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.heading-text {
+    width: 100%;
+    background: #014935;
+    text-align: center;
+    padding: 15px;
+}
+
+.heading-text h2 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.title-text {
+    margin: 18px;
+}
+
+.title-text h3 {
+    color: #014935;
+    font-size: 24px;
+    letter-spacing: 1.5px;
+}
+
+/* IMG */
+.img-responsive {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 20px auto;
+}
+
+h3.thx-text {
+    color: #014935;
+    font-size: 24px;
+    margin: 0 20px
+}
+
+/* QR Code */
+.qrcode-box {
+    max-width: 500px;
+    height: auto;
+    border: 1px solid #C4C4C4;
+    margin: 20px auto;
+    padding: 30px 70px;
+    text-align: center;
+}
+
+.qrcode-img-responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+p.qrcode-text {
+    font-weight: 600;
+    color: #616161;
+    margin: 10px auto;
+}
+
+.btn-box {
+    max-width: 570px;
+    width: 100%;
+    margin: 0 auto 20px auto;
+}
+
+button.print-btn {
+    width: 100%;
+    height: 44px;
+    color: #fff;
+    font-weight: 600;
+    background: #007756;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+button.print-btn:hover,
+button.print-btn:focus {
+    background: #014935;
+}
+
+@media screen and (max-width: 600px) {
+    .qrcode-box {
+        margin: 20px 20px;
+        padding: 30px 20px;
+    }
+
+    .btn-box {
+        max-width: 320px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .btn-box {
+        max-width: 280px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .btn-box {
+        max-width: 242px;
+
+    }
+}
