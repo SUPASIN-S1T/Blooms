@@ -10,7 +10,7 @@ html, body {
     font-family: 'Prompt', sans-serif;
 }
 
-.container {
+.container-browser {
     max-width: 100%;
     min-height: 100vh;
     display: flex;

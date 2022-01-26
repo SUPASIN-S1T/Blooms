@@ -11,7 +11,7 @@ html, body {
     font-family: 'Prompt', sans-serif;
 }
 
-.container {
+.container-browser {
     max-width: 570px;
     margin: 0 auto;
     min-height: 100vh;
@@ -65,7 +65,7 @@ input.input-search:focus {
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
 
-button {
+.btn-search {
     position: absolute;
     top: 35%;
     right: 4%;
@@ -74,7 +74,7 @@ button {
     cursor: pointer;
 }
 
-button>i {
+.btn-search>i {
     transform: scale(1.2, 1.2);
     color: #616161;
 }
@@ -83,12 +83,8 @@ button>i {
     .search-box {
         padding: 0 20px;
     }
-    button {
+    .btn-search {
         top: 34%;
         right: 10%;
     }
-}
-
-@media screen and(max-width: 280px) {
-    
 }
